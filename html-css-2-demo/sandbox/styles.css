@@ -1,0 +1,59 @@
+.blue-font {
+    color: blue;
+}
+
+#giant-font {
+    font-size: xx-large;
+}
+
+p {
+    font-size: larger;
+    color: red;
+}
+
+#parent-box {
+    /* position: relative; */
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3px solid lightgrey;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: coral;
+}
+
+#rel-pos {
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+#fix-pos {
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+}
+
+#abs-pos {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#sticky-pos {
+    position: sticky;
+    top: 50px;
+}
+
+#giant-box {
+    height: 1500px;
+    width: 50px;
+    background-color: black;
+}
